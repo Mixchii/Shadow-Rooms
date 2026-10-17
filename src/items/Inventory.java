@@ -21,7 +21,7 @@ public class Inventory {
         return this.items.remove(item);
     }
 
-    public Item findItem(String itemName)
+    public Item findItemByName(String itemName)
     {
         int index = 0;
         while(index < this.items.size())
